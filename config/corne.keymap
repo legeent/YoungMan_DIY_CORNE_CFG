@@ -21,14 +21,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        kj-esc {
-            bindings = <&kp ESC>;
-            key-positions = <20 19>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
